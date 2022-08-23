@@ -1,0 +1,150 @@
+.sec__plans {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background: #addaff;
+  justify-content: center;
+  padding: 2.2em 0em ;
+}
+
+.sec__plans-card {
+  width: 80%;
+  background: #FFFFFF;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding-bottom: 2em;
+}
+
+.sec__plans-titulo {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  padding-bottom: 1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.sec__plans-til {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #56CCF2;
+  padding: 0.5em 0em; 
+}
+
+.sec__plans-card hr {
+  border: 1px solid #DFE3E5;
+}
+
+.sec__plans-price {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #56CCF2;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+.sec__plans-text {
+  text-align: left;
+  padding-left: 3em;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.last {
+  padding-bottom: 2em;
+}
+
+.sec__plans-botao {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  text-decoration: none;
+  color: #56CCF2;
+  border: 1px solid #56CCF2;
+  border-radius: 5px;
+  padding: 0.5em 4em;
+  transition: 250ms;
+}
+
+.sec__plans-botao:hover {
+  color: #DFE3E5;
+  background-color:#56CCF2;
+  transition: 250ms;
+}
+
+.purp {
+  color: #FFD700;
+  border-color: #FFD700;
+  transition: 250ms;
+}
+
+.purp_title {
+  color: #FFD700;
+  border-color: #FFD700;
+  transition: 250ms;
+}
+
+.purp:hover {
+  color: #DFE3E5;
+  background-color: #FFD700;
+  transition: 250ms;
+}
+
+.red_title {
+  color: #b9f2ff;
+  border-color: #b9f2ff;
+  transition: 250ms;
+}
+
+.red {
+  color: #b9f2ff;
+  border-color: #b9f2ff;
+  transition: 250ms;
+}
+
+.red:hover {
+  color: #FFFFFF;
+  background-color: #b9f2ff;
+  transition: 250ms;
+}
+
+@media screen and (min-width: 768px) {
+  .sec__plans-card {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sec__plans {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+.sec__plans-titulo {
+  flex-wrap: wrap;
+  }
+
+  .sec__plans-card {
+    width: 30%;
+    padding: 
+  }
+
+  .sec__plans-titulo-div {
+    width: 100%;
+  }
+}

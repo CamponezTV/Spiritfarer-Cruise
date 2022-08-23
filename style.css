@@ -1,0 +1,19 @@
+@import url("Styles/header.css");
+@import url("Styles/sec__destaques.css");
+@import url("Styles/sec__sobre.css");
+@import url("Styles/sec__vantagens.css");
+@import url("Styles/sec__dev.css");
+@import url("Styles/sec__plans.css");
+@import url("Styles/sec__contact.css");
+@import url("Styles/fot.css");
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+hr {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  border: 1px solid #103D4A;
+}

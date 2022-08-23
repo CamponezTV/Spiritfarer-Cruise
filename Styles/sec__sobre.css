@@ -1,0 +1,53 @@
+.sec__sobre {
+  background: #FFFFFF;
+  text-align: center;
+  padding: 0em 0em 3em 0em;
+}
+
+.sec__sobre-titulo {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #003c6c;
+  text-transform: uppercase;
+  padding: 1em 1em;
+}
+
+.sec__sobre-texto {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #003c6c;
+  text-align: center;
+  padding: 0em 1em 3em 1em;
+}
+
+.sec__sobre-botao {
+  border: 1px solid #003c6c;
+  border-radius: 5px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #003c6c;
+  padding: 1em 7em;
+  text-decoration: none;
+  transition: 250ms;
+}
+
+.sec__sobre-botao:hover {
+  color: #FFFFFF;
+  background-color: #003c6c;
+  transition: 250ms;
+
+}
+
+@media screen and (min-width: 1024px) {
+  .sec__sobre {
+    background: none;
+    padding: 0em;
+  }
+}

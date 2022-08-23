@@ -1,0 +1,57 @@
+.fot {
+  background: #333333;
+  text-align: center;
+}
+
+.fot__logo {
+  width: 50%;
+  padding: 2em;
+}
+
+.fot__social {
+  display: flex;
+  justify-content: center;
+}
+
+.fot__social-image {
+  width: 42px;
+  padding: 0em 1em 2em 1em;
+}
+
+.fot__list {
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans';
+  flex-wrap: wrap;
+}
+
+.fot__item {
+  list-style-type:none;
+  padding: 2em 0em;
+  transition: 500ms;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.fot__link {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 0em 1em;
+}
+
+.fot__item:active {
+  font-size: 20px;
+  transition: 500ms;
+}
+
+@media screen and (min-width: 768px) {
+  .fot__logo {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  
+}
